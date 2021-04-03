@@ -4,7 +4,7 @@ dScryb provides Boxed Text—descriptive text of places, monsters, spells, and o
  
 <a href="https://dscryb.com/ironmoose">https://dscryb.com/ironmoose</a>
 
-[![dscryb youtube video](http://img.youtube.com/vi/p5D-bxJT0BU/0.jpg)](http://www.youtube.com/watch?v=p5D-bxJT0BU "Describe Your World Better with dScryb)
+[![](http://img.youtube.com/vi/p5D-bxJT0BU/0.jpg)](http://www.youtube.com/watch?v=p5D-bxJT0BU)
 
 This is the official FoundryVTT module for dScryb, bringing you the wonderful boxed text dScryb provides in the same interface you expect from the site. All users gain access to over 250 pieces of free content. Paid members can login and gain access to their full subscription as well, with Heros gaining access to over 1800 pieces of content.
 
