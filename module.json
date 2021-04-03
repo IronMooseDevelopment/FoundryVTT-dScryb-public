@@ -1,0 +1,48 @@
+{
+    "name": "dscryb",
+    "title": "dScryb",
+    "description": "dScryb provides Boxed Text—descriptive text of places, monsters, spells, and other observations—meant to be read aloud by GMs to players. It is set in the world of epic fantasy, like many of your favorite RPGs. Good boxed text shows its subject by describing the sensory experience. And it often sets the narrative tone, introduces the scene, or spotlights what is important.",
+    "version": "1.0.0",
+    "library": "false",
+    "bugs": "https://github.com/IronMooseDevelopment/FoundryVTT-dScryb-public/issues",
+    "allowBugReporter": true,
+    "manifestPlusVersion": "1.1.0",
+    "minimumCoreVersion": "0.7.9",
+    "compatibleCoreVersion": "0.7.9",
+    "authors": [
+        {
+            "name": "cswendrowski",
+            "url": "https://github.com/IronMooseDevelopment",
+            "discord": "cswendrowski#9701"
+        },
+        {
+            "name": "zeel",
+            "discord": "zeel#4200"
+        }
+    ],
+    "dependencies": [],
+    "conflicts": [],
+    "scripts": [],
+    "esmodules": [
+        "/scripts/dscryb.js"
+    ],
+    "styles": [
+        "/styles/dscryb.css"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "languages/en.json"
+        }
+    ],
+    "url": "https://github.com/IronMooseDevelopment/FoundryVTT-dScryb-public",
+    "manifest": "https://github.com/IronMooseDevelopment/FoundryVTT-dScryb/releases/download/latest/module.json",
+    "download": "https://github.com/IronMooseDevelopment/FoundryVTT-dScryb/releases/download/1.0.0/module.zip",
+    "media": [
+        {
+            "type": "icon",
+            "url": "https://dscryb.com/wp-content/uploads/2020/12/dscryb-logotype-final-black.png"
+        }
+    ]
+}
