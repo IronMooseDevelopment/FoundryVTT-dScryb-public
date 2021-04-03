@@ -1,0 +1,2 @@
+# FoundryVTT-dScryb-public
+dScryb provides Boxed Text—descriptive text of places, monsters, spells, and other observations—meant to be read aloud by GMs to players. It is set in the world of epic fantasy, like many of your favorite RPGs. Good boxed text shows its subject by describing the sensory experience. And it often sets the narrative tone, introduces the scene, or spotlights what is important.
