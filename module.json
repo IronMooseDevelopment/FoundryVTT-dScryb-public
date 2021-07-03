@@ -22,7 +22,9 @@
     ],
     "dependencies": [],
     "conflicts": [],
-    "scripts": [],
+    "scripts": [
+        "/scripts/sheet-class-shim.js"
+    ],
     "esmodules": [
         "/scripts/dscryb.js"
     ],
