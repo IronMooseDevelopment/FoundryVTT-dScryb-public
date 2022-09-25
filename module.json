@@ -7,8 +7,10 @@
     "bugs": "https://github.com/IronMooseDevelopment/FoundryVTT-dScryb-public/issues",
     "allowBugReporter": true,
     "manifestPlusVersion": "1.1.0",
-    "minimumCoreVersion": "9",
-    "compatibleCoreVersion": "9",
+    "compatibility": {
+      "minimum": 10,
+      "verified": 10
+    },
     "authors": [
         {
             "name": "cswendrowski",
@@ -48,7 +50,7 @@
     ],
     "url": "https://github.com/IronMooseDevelopment/FoundryVTT-dScryb-public",
     "manifest": "https://raw.githubusercontent.com/IronMooseDevelopment/FoundryVTT-dScryb-public/main/module.json",
-    "download": "https://github.com/IronMooseDevelopment/FoundryVTT-dScryb-public/releases/download/3.3.2/module.zip",
+    "download": "https://github.com/IronMooseDevelopment/FoundryVTT-dScryb-public/releases/download/3.4.0/module.zip",
     "media": [
         {
             "type": "icon",
