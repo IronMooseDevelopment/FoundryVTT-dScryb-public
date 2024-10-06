@@ -50,7 +50,7 @@
     ],
     "url": "https://github.com/IronMooseDevelopment/FoundryVTT-dScryb-public",
     "manifest": "https://raw.githubusercontent.com/IronMooseDevelopment/FoundryVTT-dScryb-public/main/module.json",
-    "download": "https://github.com/IronMooseDevelopment/FoundryVTT-dScryb-public/releases/download/4.4.4/module.zip",
+    "download": "https://github.com/IronMooseDevelopment/FoundryVTT-dScryb-public/releases/download/5.0.2/module.zip",
     "socket": true,
     "media": [
         {
