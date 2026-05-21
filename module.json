@@ -3,14 +3,13 @@
     "id": "dscryb",
     "title": "dScryb",
     "description": "dScryb provides Boxed Text—descriptive text of places, monsters, spells, and other observations—meant to be read aloud by GMs to players. It is set in the world of epic fantasy, like many of your favorite RPGs. Good boxed text shows its subject by describing the sensory experience. And it often sets the narrative tone, introduces the scene, or spotlights what is important.",
-    "version": "6.0.2",
-    "library": "false",
+    "version": "6.0.3",
     "bugs": "https://github.com/IronMooseDevelopment/FoundryVTT-dScryb-public/issues",
     "allowBugReporter": true,
     "manifestPlusVersion": "1.1.0",
     "compatibility": {
-      "minimum": 12,
-      "verified": 14
+        "minimum": 12,
+        "verified": 14
     },
     "authors": [
         {
@@ -23,16 +22,17 @@
             "discord": "zeel#4200"
         }
     ],
-    "dependencies": [],
-    "conflicts": [],
-    "scripts": [
-        "/scripts/sheet-class-shim.js"
+    "dependencies": [
+        {
+            "name": "lib-wrapper"
+        }
     ],
     "esmodules": [
         "/scripts/dscryb.js"
     ],
     "styles": [
-        "/styles/dscryb.css"
+        "/styles/dscryb.css",
+        "/styles/dscryb-opus.css"
     ],
     "packs": [
         {
@@ -40,6 +40,13 @@
             "type": "Macro",
             "name": "dscryb-macros",
             "path": "packs/dscryb-macros.db"
+        },
+        {
+            "label": "dScryb Content",
+            "type": "JournalEntry",
+            "name": "dscryb-content",
+            "path": "packs/dscryb-content.db",
+            "system": "generic"
         }
     ],
     "languages": [
@@ -49,14 +56,32 @@
             "path": "languages/en.json"
         }
     ],
+    "flags": {
+        "hotReload": {
+            "extensions": [
+                "css",
+                "hbs",
+                "json"
+            ],
+            "paths": [
+                "styles",
+                "templates",
+                "languages"
+            ]
+        }
+    },
     "url": "https://github.com/IronMooseDevelopment/FoundryVTT-dScryb-public",
     "manifest": "https://raw.githubusercontent.com/IronMooseDevelopment/FoundryVTT-dScryb-public/main/module.json",
-    "download": "https://github.com/IronMooseDevelopment/FoundryVTT-dScryb-public/releases/download/6.0.2/module.zip",
+    "download": "https://github.com/IronMooseDevelopment/FoundryVTT-dScryb-public/releases/download/6.0.3/module.zip",
     "socket": true,
     "media": [
         {
             "type": "icon",
             "url": "https://dscryb.com/wp-content/uploads/2020/12/dscryb-logotype-final-black.png"
+        },
+        {
+            "type": "setup",
+            "url": "https://s40458.pcdn.co/wp-content/uploads/2022/03/YouTube-Ad-Thumbnail-1120x630-1.webp"
         }
     ]
 }
